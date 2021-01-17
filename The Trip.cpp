@@ -35,8 +35,7 @@ int main()
             suma += gastos[i];
         }
         double media = suma / static_cast<double> (students);
-        //cout<<fixed<<media<<"\n";
-
+        
         double over_media = 0.00, below_media = 0.00;
         for (int i = 0; i < students; ++i)
         {
